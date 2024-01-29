@@ -1,0 +1,54 @@
+li{
+    list-style-type: none;
+    border: 1px black solid;
+    padding: 1em;
+    background-color: #004225;
+    color:#F9F3CC;
+}
+
+main img{
+    flex-basis: 30%;
+    margin: 1em;
+}
+
+footer, h1, aside, #centre{
+    border: 1px black solid;
+    padding: 1em;
+    background-color: #FFCF9D;
+}
+
+footer, h1, aside, main{
+    margin: 1em;
+}
+
+aside img{
+    height: 4em;
+}
+
+.actuel{
+    background-color: #FFB000;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+main section>article{
+    border: 1px black solid;
+    background-color:  #F5F5DC ;
+}
+
+li > a{
+    color:#F9F3CC;
+}
+
+#centre>p, aside>section>p{
+    border: 1px black solid;
+    background-color:#F9F3CC;
+    padding: 1em;
+}
+
+header nav{
+    margin-right: 2rem;
+}
